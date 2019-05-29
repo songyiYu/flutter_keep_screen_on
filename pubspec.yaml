@@ -2,7 +2,7 @@ name: screen_keep_on
 description: A new flutter plugin project.
 version: 0.0.1
 author: Cindyu<songyi@gmail.com>
-homepage:
+homepage: https://github.com/songyiYu/flutter_keep_screen_on
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

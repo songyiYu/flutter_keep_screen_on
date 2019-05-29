@@ -1,6 +1,6 @@
 # flutter_screen_keep_on
 
-A Flutter plugin to keep screen on 
+A Flutter plugin to keep screen on. AndroidX migrated.
 
 ## Usage
 To use this plugin, add `screen_keep_on` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
