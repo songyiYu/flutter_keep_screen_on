@@ -4,14 +4,14 @@ import 'package:flutter/services.dart';
 
 class ScreenKeepOn {
   static const MethodChannel _channel =
-    const MethodChannel('cindyu.com/screen_keep_on');
+      const MethodChannel('cindyu.com/screen_keep_on');
 
   static Future<bool> get isOn async {
     return await _channel.invokeMethod('isOn') as bool;
   }
 
   static turnOn(bool turnOn) {
-    _channel.invokeMethod('turnOn', {"turnOn" : turnOn});
+    _channel.invokeMethod('turnOn', {"turnOn": turnOn});
   }
 
   static Future<double> get brightness async {
@@ -19,6 +19,6 @@ class ScreenKeepOn {
   }
 
   static setBrightness(double brightness) {
-    _channel.invokeMethod('setBrightness',{"brightness" : brightness});
+    _channel.invokeMethod('setBrightness', {"brightness": brightness});
   }
 }

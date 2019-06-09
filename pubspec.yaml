@@ -1,6 +1,6 @@
 name: screen_keep_on
-description: A new flutter plugin project.
-version: 0.0.1
+description: A Flutter plugin to keep screen on. AndroidX migrated.
+version: 0.1.1
 author: Cindyu<songyi@gmail.com>
 homepage: https://github.com/songyiYu/flutter_keep_screen_on
 
